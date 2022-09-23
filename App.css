@@ -72,17 +72,22 @@ form{
   margin: 32px auto auto auto;
   border-radius: 7px;
   text-align: center;
-  background-color: goldenrod;
+}
+::placeholder {
+  color: yellow;
+  font-size: 16px;
 }
 input[type="text"]{
   width:100%;
+  line-height: 40px;
   color: yellow;
   background-color: black;
   text-indent: 10px;
-  color: aquamarine;
+  font-size: 16px;
 }
 textarea{
   color: yellow;
+  font-size: 16px;
   width: 100%;
   line-height: 80px;
   background-color: black;
