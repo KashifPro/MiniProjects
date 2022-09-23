@@ -65,6 +65,16 @@ nav .menu-btn i{
 input[type="checkbox"]{
   display: none;
 }
+.div--count{
+display: flex;
+padding: 20px;
+font-weight: 600;
+font-size: 18px;
+justify-content: center;
+}
+
+
+
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
