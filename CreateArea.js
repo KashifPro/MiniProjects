@@ -1,13 +1,12 @@
 import React from 'react'
-// import AddIcon from '@mui/icons-material/Add';
-
+import AddIcon from '@mui/icons-material/Add';
 function CreateArea() {
   return (
     <div class="content">
          <form>
             <input type="text" placeholder="Place text" name='text'></input>
          <textarea placeholder='place text'></textarea>
-         <button>+</button>
+         <button><AddIcon /></button>
          </form>
          
       </div>
