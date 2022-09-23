@@ -22,14 +22,7 @@ function Header() {
         <li><a href='#'>Projects</a></li>
         </ul>
     </nav>
-    <div class="content">
-         <form>
-            
-         </form>
-         <div>
-            using only HTML & CSS
-         </div>
-      </div>
+    
     </div>
   )
 }
