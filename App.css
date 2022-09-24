@@ -72,32 +72,78 @@ form{
   margin: 32px auto auto auto;
   border-radius: 7px;
   text-align: center;
+  box-shadow: 0 1px 7px rgb(128,128, 128) ;
 }
 ::placeholder {
   color: yellow;
-  font-size: 16px;
+  font-size: 18px;
+}
+.note{
+  background-color: #1a1a1a;
+  width: 240px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(175,175, 175);
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  margin-right: 0;
+  color: yellow;
+  text-align: center;
+  font-size: large;
+  
+}
+.note p{
+  color: rgb(255, 7, 7);
+  font-size: smaller;
+  overflow: hidden;
+}
+.note Button:hover{
+background-color: #1a1a1a;
+color: aqua;
+width: 1px;
+
+}
+.note h1{
+  font-size:medium;
+  overflow: hidden;
 }
 input[type="text"]{
   width:100%;
-  line-height: 40px;
+  height: 50px;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  resize: none;
   color: yellow;
   background-color: black;
   text-indent: 10px;
-  font-size: 16px;
+  font-size: 18px;
+  outline: none;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
 }
 textarea{
-  color: yellow;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+ border: none;
+resize: none;
+outline: none;
+ color: yellow;
   font-size: 16px;
   width: 100%;
-  line-height: 80px;
+  height: 150px;
   background-color: black;
   text-indent: 10px;
+  padding: 4px 10px;
+  margin-bottom: 20px;
 }
 
 button{
   color: yellow;
   background-color: black;
   width: 170px;
+  height: 50px;
+  border-radius: 5px;
 }
 .div--count{
 display: flex;
